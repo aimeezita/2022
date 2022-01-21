@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Poppins:ital,wght@0,300;1,100;1,200;1,300&family=Press+Start+2P&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #fefefe;
+   
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1vh;
+    height: 6vh;
+    /* 12vh*/
+    font-size: 14px;
+   
+}
+
+
+
+ul.diogoaimee{
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 2rem;
+   
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+main{
+    display: flex;
+    height:75vh ;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    
+}
+
+h2{
+    margin-bottom: 3vh;
+    margin-top: 2vh;
+}
+article p{
+    margin-bottom: 1vh;
+    text-align: justify;
+    font-size: 14px;
+}
