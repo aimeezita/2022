@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Poppins:ital,wght@0,300;1,100;1,200;1,300&family=Press+Start+2P&display=swap');
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Press Start 2P', sans-serif;
     box-sizing: border-box;
     margin: 0;
 }
@@ -34,10 +34,12 @@ a{
 }
 main{
     display: flex;
-    height:75vh ;
+    height:100% ;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: url(../img/gameboy.svg) no-repeat center;
+    background-size: 360px 600px;
 }
 
 h2{
@@ -49,20 +51,8 @@ article p{
 }
 
 
-main{
-    height: 100vh;
-}
-.gameboy{
-    position: absolute;
-    width: 300px;
-    z-index: -1;
-  
-
-}
-
 span.pressStart{
-    position: absolute;
-    z-index: 1;
+
     height: 50vh;
   }
 
@@ -73,4 +63,18 @@ span.letras{
     color: #2c2c2c ;
     align-items: center;
     margin: 5px;
+}
+
+.aperteStart{
+    font-size: 8px;
+}
+
+/*Media*/
+
+@media (max-width: 768px){
+
+    span.pressStart{
+        height: 55vh;
+    }
+
 }

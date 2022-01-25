@@ -10,22 +10,12 @@ body{
     flex-direction: column;
     height: 100%;
     background-color: #fefefe;
-   
-}
-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 1vh;
-    height: 6vh;
-    /* 12vh*/
-    font-size: 14px;
+
    
 }
 
 
-
-ul.diogoaimee{
+.diogoaimee{
     font-family: 'Dawning of a New Day', cursive;
     font-size: 2rem;
    
@@ -53,4 +43,29 @@ article p{
     margin-bottom: 1vh;
     text-align: justify;
     font-size: 14px;
+}
+
+/*home*/
+
+.convite{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    justify-content: space-around;
+    border: dotted;
+}
+
+small{
+    font-size: 10px;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px){
+
+    *{
+        font-size:11px ;
+    }
+
+ 
 }

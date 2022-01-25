@@ -11,5 +11,5 @@ setInterval(function(){
 
 //troca página
 function trocapagina() {
-    location.replace("nossahistoria.html")
+    location.replace("https://diogoeaimee.netlify.app/home.html")
   }
