@@ -55,6 +55,25 @@ article p{
     border: dotted;
 }
 
+.noivos{
+    width: 100%;
+    justify-content: center;
+}
+
+.nameheart{
+    width: 50%;
+    align-items: center;
+}
+
+.quebranome{
+    flex-wrap: wrap;
+    }
+
+.diogo{
+    width: 70%;
+}
+
+
 small{
     font-size: 10px;
 }
